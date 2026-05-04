@@ -1,0 +1,139 @@
+{
+  "tests": [
+    {
+      "name": "Problem 01 - currentMonthSupplier",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem01_currentMonthSupplier_returnsCurrentMonth test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 02 - longerThanFive",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem02_longerThanFive_worksForShortAndLongStrings test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 03 - positiveAndEven",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem03_positiveAndEven_usesExpectedLogic test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 04 - wordCounter",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem04_wordCounter_countsWordsAndHandlesBlank test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 05 - cleanLabels",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem05_cleanLabels_filtersTrimsAndUppercases test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 06 - sortedCourseNames",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem06_getSortedCourseNames_returnsAlphabeticalNames test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 07 - countScoresAtLeast",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem07_countScoresAtLeast_countsAcrossAllCourses test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 08 - firstLongWord",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem08_firstLongWord_returnsOptionalResult test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 09 - squareAll",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem09_squareAll_returnsSquaredValues test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 10 - averagePassingScore",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem10_averagePassingScore_usesOnlyPassingValues test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Problem 11 - addLearner",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem11_addLearner_addsNewLearnerAndRejectsDuplicate test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Problem 12 - addScore",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem12_addScore_addsOnlyForExistingLearner test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Problem 13 - averageFor",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem13_averageFor_returnsOptionalAverage test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Problem 14 - letterBandFor",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem14_letterBandFor_mapsAverageToLetter test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Problem 15 - undoLastChange",
+      "run": "mvn -q -B -ntp -Dtest=edu.touro.las.mcon364.test.MidtermAutograderTest#problem15_undoLastChange_revertsMostRecentMutation test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    }
+  ]
+}
