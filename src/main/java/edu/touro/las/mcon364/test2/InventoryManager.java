@@ -37,16 +37,13 @@ import java.util.Map;
  *
  * 4. {@code getTotalUnitsAdded()}
  *    - Returns the running total of every unit ever added across all items.
- *    - Must reflect concurrent additions accurately — use an atomic counter (no synchronized).
+ *    - Must reflect concurrent additions accurately but you cannot mark the method as synchronized.
  *
  * 5. {@code getSnapshot()}
  *    - Returns an unmodifiable copy of the current inventory so callers
  *      cannot mutate internal state.
  *    - Hint: {@link Map#copyOf(Map)}.
  *
- * ALLOWED APIs (only what was taught in class):
- *   ConcurrentHashMap, AtomicInteger, synchronized blocks/methods,
- *   Map.copyOf(), Collections.unmodifiableMap()
  *
  * DO NOT use any other concurrency utilities.
  */
@@ -54,9 +51,9 @@ public class InventoryManager {
 
     // TODO: initialise this field with a thread-safe Map implementation
     //       — which Map implementation from the lesson guarantees thread-safe reads and writes?
+    private final Map<String, Integer> stock = null; 
 
-
-    // TODO: declare and initialise a field called totalUnitsAdded that tracks the
+    // TODO: declare and initialise a private final field called totalUnitsAdded that tracks the
     //       running total of units ever added, thread-safely, without using synchronized
 
 
