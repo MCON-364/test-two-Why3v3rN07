@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * ══════════════════════════════════════════════════════════════
- * Problem 2 of 3
+ * Problem 3 of 3
  * ══════════════════════════════════════════════════════════════
  *
  * A reporting system receives multiple batches of transactions.
@@ -47,8 +47,8 @@ public class ParallelReportBuilder {
                                 int batchesProcessed) {}
 
 
-    // TODO 1: declare and initialize thread-safe progress tracking state
-    private AtomicInteger numberOfBatchesProcessed = new AtomicInteger(0);
+    // TODO 1: declare and initialize private thread-safe progress tracking state called numberOfBatchesProcessed
+    
     /*
      * TODO 2 — generateReport(List<List<Transaction>> batches, int workers)
      *
