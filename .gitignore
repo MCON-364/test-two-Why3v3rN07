@@ -78,3 +78,6 @@ __pycache__/
 *.log
 *.pot
 
+/src/test/java/edu/touro/las/mcon364/test2/InventoryManagerTest.java
+/src/test/java/edu/touro/las/mcon364/test2/ParallelReportBuilderTest.java
+/src/test/java/edu/touro/las/mcon364/test2/TaskDispatcherTest.java
