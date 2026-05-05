@@ -39,6 +39,7 @@ import java.util.concurrent.locks.Lock;
  * TODO 6 — getResults() / getCompletedCount()
  *   Reads must be guarded the same way writes are.
  *   getResults() must return a copy so callers cannot modify internal state.
+ *   
  */
 public class TaskDispatcher {
 
@@ -61,6 +62,7 @@ public class TaskDispatcher {
      *     (c) return the result
      *   Give back a handle to each piece of work so the caller can retrieve
      *   the results later. Do not wait for the results here.
+     *   You have to use streams!
      */
     public List<Future<String>> dispatch(List<String> tasks) {
         // TODO 3
@@ -81,6 +83,7 @@ public class TaskDispatcher {
     }
 
     public int getCompletedCount() {
+        //TODO 6
         return 0; //placeholder
     }
 
