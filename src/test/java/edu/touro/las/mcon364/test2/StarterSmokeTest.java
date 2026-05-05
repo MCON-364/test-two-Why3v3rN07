@@ -1,4 +1,4 @@
-package edu.touro.las.mcon364.test;
+package edu.touro.las.mcon364.test2;
 
 import org.junit.jupiter.api.Test;
 
