@@ -84,6 +84,7 @@ public class ParallelReportBuilder {
         // Each unit of work should:
         // - compute BatchStats for that batch
         // - safely record that one more batch has been processed
+        // - you have to use streams here
 
         long totalAmount = 0;
         long totalCount = 0;
@@ -92,6 +93,7 @@ public class ParallelReportBuilder {
 
         // TODO 2D: after all work has been started, collect results
         // and combine them into the summary variables above
+        // you don't have to use streams here. In this case for loop is acceptable
 
         // TODO 2E: shut down any concurrency resources you created
 
